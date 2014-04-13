@@ -1,0 +1,50 @@
+html, body {
+  background: black;
+  text-align: center;
+  font: 16px Courier New, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+div#fullscreen-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: 50% 50%; }
+  div#fullscreen-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("/images/vignetter.png");
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    opacity: 0.6; }
+  div#fullscreen-bg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+
+/*.social-container {
+  position: relative;
+  width: 100%;
+  min-height: 930px; }*/
+
+.social {
+  position: absolute;
+  width: 100%;
+  bottom: 15px; }
+  .social ul {
+    padding: 0;
+    margin: 0; }
+  .social li {
+    list-style: none; }
+  .social a {
+    text-decoration: none; }
